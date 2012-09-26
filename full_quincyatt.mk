@@ -47,3 +47,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.checkjni=false \
     dalvik.vm.dexopt-flags=m=y,v=n,o=v \
     ro.telephony.sends_barcount=true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.developerid=flappjaxxx \
+    ro.goo.developerid=flappjaxxx \
+    ro.goo.rom=AOSPxXx-v2.1B7 \
+    ro.goo.version=$(shell date -u +%Y%m%d) \
+    ro.goo.board=SGH-I717
