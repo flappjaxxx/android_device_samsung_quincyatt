@@ -38,3 +38,12 @@ PRODUCT_DEVICE := quincyatt
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SAMSUNG-SGH-I717
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mass_storage \
+    ro.vendor.extension_library=/system/lib/libqc-opt.so \
+    ro.qualcomm.cabl=0 \
+    ro.ril.set.mtu1472=1 \
+    dalvik.vm.checkjni=false \
+    dalvik.vm.dexopt-flags=m=y,v=n,o=v \
+    ro.telephony.sends_barcount=true
