@@ -40,7 +40,6 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SAMSUNG-SGH-I717
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mass_storage \
     ro.vendor.extension_library=/system/lib/libqc-opt.so \
     ro.qualcomm.cabl=0 \
     ro.ril.set.mtu1472=1 \
